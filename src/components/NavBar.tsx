@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { CodeXml, Menu, X } from "lucide-react";
 
 export default function NavBar() {
     const [open, setOpen] = useState(false);
@@ -17,18 +18,18 @@ export default function NavBar() {
             
             <nav className="nav-bar">
 
-                <div className="logo">Shazia Ahmad <span className="dot"> . </span> <span className="blinkingAnimation">_</span></div>
+                <div className="logo"><span><CodeXml className="logoicon"/></span><span className="logoname">Shazia Ahmad<span className="dot">.</span></span></div>
 
 
                 <button className="menu-btn " onClick={() => setOpen(!open)}>
-                    {open ? <p className="text-3xl mb-2 mr-1">x</p> : <p>☰</p>}
+                    {open ? <X className="menu"/> : <Menu className="menu"/>}
                 </button>
 
                 <div className={`links ${open ? "active" : ""}`}>
                     <button className="nav-btn margintop" onClick={() => navigate("/aboutMe")}>ABOUT</button>
                     <button className="nav-btn" onClick={() => navigate("/skills")}>SKILLS</button>
-                    <button className="nav-btn">PROJECTS</button>
-                    <button className="nav-btn">CONTACT</button>
+                    <button className="nav-btn" onClick={() => navigate("/projects")}>PROJECTS</button>
+                    <button className="nav-btn" onClick={() => navigate("/contact")}>CONTACT</button>
                </div>
                
             </nav>
