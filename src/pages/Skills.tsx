@@ -67,7 +67,7 @@ export default function Skills() {
           <div className="container">
 
             <SkillBox imageSrc= {git} skillName="Git" level="ninety" descrip="Proficient in version control and collaboration using Git."/>
-            <SkillBox imageSrc= {github} skillName="GitHub" level="fifty" descrip="Basic understanding of GitHub for code repository management."/>
+            <SkillBox imageSrc= {github} skillName="GitHub" level="sixty" descrip="Basic understanding of GitHub for code repository management."/>
             <SkillBox imageSrc= {vite} skillName="vite" level="sixty" descrip="Familiar with Vite for fast frontend development."/>
             <SkillBox imageSrc= {figma} skillName="Figma" level="seventy" descrip="Basic experience with Figma for UI/UX design."/>
           </div>

@@ -27,8 +27,8 @@ export default function NavBar() {
 
                 <div className={`links ${open ? "active" : ""}`}>
                     <button className="nav-btn margintop" onClick={() => navigate("/aboutMe")}>ABOUT</button>
-                    <button className="nav-btn" onClick={() => navigate("/skills")}>SKILLS</button>
-                    <button className="nav-btn" onClick={() => navigate("/projects")}>PROJECTS</button>
+                    <button className="nav-btn" onClick={() => navigate("/achievements")}>ACHIEVEMENTS</button>
+                    <button className="nav-btn" onClick={() => navigate("/quests")}>QUESTS</button>
                     <button className="nav-btn" onClick={() => navigate("/contact")}>CONTACT</button>
                </div>
                

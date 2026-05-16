@@ -17,8 +17,8 @@ function App() {
         <Routes location={location} key={location.pathname}>
           <Route path = "/" element = {<HeyPage/>} />
           <Route path="/aboutMe" element = {<AboutMe/>}/>
-          <Route path="/skills" element = {<Skills/>}/>
-          <Route path="/projects" element = {<Projects/>}/>
+          <Route path="/achievements" element = {<Skills/>}/>
+          <Route path="/quests" element = {<Projects/>}/>
           <Route path="/contact" element = {<ContactLinks/>}/>
         </Routes>
       </AnimatePresence>
