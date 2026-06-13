@@ -18,7 +18,7 @@ export default function NavBar() {
             
             <nav className="nav-bar">
 
-                <div className="logo"><span><CodeXml className="logoicon"/></span><span className="logoname">Shazia Ahmad<span className="dot">.</span></span></div>
+                <div className="logo"><span><CodeXml className="logoicon"/></span><span className="logoname">SA<span className="dot">.</span></span></div>
 
 
                 <button className="menu-btn " onClick={() => setOpen(!open)}>

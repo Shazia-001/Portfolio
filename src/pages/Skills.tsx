@@ -35,6 +35,9 @@ export default function Skills() {
         <div className="skillMain">
 
           <div className="title">ACHIEVEMENTS</div>
+          <div className="line dot work">____________________</div>
+
+          <div className="Questheader">LANGUAGES</div>
 
           <div className="container">
             
@@ -45,14 +48,17 @@ export default function Skills() {
 
           </div>
 
+          <div className="skillheader">FRONTEND</div>
+
           <div className="container">
             
             <SkillBox imageSrc= {React} skillName="React" level="ninety" descrip="Skilled in building interactive user interfaces with React and its ecosystem."/>
-            <SkillBox imageSrc= {Next} skillName="Next.js" level="ninety" descrip="Experienced in building server-rendered applications with Next.js."/>
             <SkillBox imageSrc= {tailwind} skillName="Tailwind CSS" level="seventy" descrip="Familiar with Tailwind CSS for rapid UI development."/>
             <SkillBox imageSrc= {framer} skillName="Framer Motion" level="fifty" descrip="Basic understanding of Framer Motion for creating smooth animations."/>
 
           </div>
+
+          <div className="skillheader">BACKEND</div>
 
           <div className="container">
 
@@ -64,8 +70,10 @@ export default function Skills() {
 
           </div>
 
-          <div className="container">
+          <div className="skillheader">TOOLS</div>
 
+          <div className="container">
+            <SkillBox imageSrc= {Next} skillName="Next.js" level="ninety" descrip="Experienced in building server-rendered applications with Next.js."/>
             <SkillBox imageSrc= {git} skillName="Git" level="ninety" descrip="Proficient in version control and collaboration using Git."/>
             <SkillBox imageSrc= {github} skillName="GitHub" level="sixty" descrip="Basic understanding of GitHub for code repository management."/>
             <SkillBox imageSrc= {vite} skillName="vite" level="sixty" descrip="Familiar with Vite for fast frontend development."/>
