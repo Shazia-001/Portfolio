@@ -66,6 +66,7 @@ export default function ContactLinks () {
             <form onSubmit={handleSubmit} className="contactpage">
 
                 <div className="header">LET'S <span className="dot work">WORK</span> TOGETHER</div>
+                <div className="line dot work">________________________</div>
 
                 <div className="contactBox">
 
