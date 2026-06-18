@@ -27,32 +27,29 @@ Named Quest as this page showcases my personal projects, and other projects i ha
 - Smooth navigation between sections
 
 ## Tech Stack
-### Frontend
 - React
 - TypeScript
 - CSS
 - Lucide React
-### Backend
-- Express.js
-### Planned Integrations
-- Gemini API
+- EmailJs
 
-## Project Goals
 
-The goal of this project is to explore how AI-powered recommendations can create a personalized entertainment experience based on a user's emotional state.
+## Project Purpose
+
+This project was created to showcase my development skills while exploring React Router, TypeScript, and third-party service integrations in a real-world application.
 
 ## What I'm Learning
-- Full-stack application development
-- REST API design with Express
-- State management in React
-- TypeScript best practices
-- Data persistence and user preferences
-- AI integration workflows
+- Client-side routing with React Router
+- TypeScript in larger React applications
+- Form handling and validation
+- Integrating third-party services with EmailJS
+- Component organization and reusable UI patterns
+- Designing themed user interfaces
 
 ## Planned Improvements
-- Gemini-powered recommendation generation
-- User authentication
-- Custom playlist creation
-- Recommendation history
--Favorites system
-- Enhanced recommendation accuracy
+- Dark/light theme toggle
+- Project filtering
+- Animations and transitions
+- Blog section
+- Downloadable resume
+- Enhanced accessibility
