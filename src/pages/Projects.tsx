@@ -28,6 +28,9 @@ export default function Projects () {
                     <a href="https://github.com/Shazia-001/FEELSYNC-moodmusic-generator-">
                         <ProjectBox imageSrc={feelsync} projectName="FeelSync Mood playlist generator" completed="fifty" descrip="FeelSync is a web application that generates personalized recommendations based on a user's mood. Enter how you're feeling, and the app generates music playlists, activities, and book recommendations. This project is currently under development." techstack="React, Typescript, Express, Gemini" starsIcon={5}/>
                     </a>
+                    <a href="https://github.com/Shazia-001/Portfolio">
+                        <ProjectBox imageSrc="" projectName="Personal Portfolio" completed="hundred" descrip="A personal portfolio website showcasing my projects and technical skills as a full-stack developer. Built with a focus on responsive design, performance, and user experience." techstack="React, Typescript, EmailJS" starsIcon={5}/>
+                    </a>
                     
 
                 </div>

@@ -1,73 +1,58 @@
-# React + TypeScript + Vite
+# Personal Portfoli
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website showcasing my projects and technical skills as a full-stack developer. Built with a focus on responsive design, performance, and user experience.
 
-Currently, two official plugins are available:
+## About Me
+![alt text](image.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Skills / Achievements
+Named Achievements like badges in game when hovering on one it shows the percentage bar of how much i know and description.
+![alt text](image-1.png)
 
-## React Compiler
+## Quests
+Named Quest as this page showcases my personal projects, and other projects i have done as quests when hovered over it shows the project description and the bar of how much completed. When clicked on, you are redirected to the github repo.
+![alt text](image-2.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Contact Page
+![alt text](image-3.png)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Features 
+- Multi-page navigation using React Router
+- Project showcase
+- Skills section
+- Contact form with EmailJS integration
+- Responsive design
+- Game-inspired UI elements and interactions
+- Smooth navigation between sections
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Tech Stack
+### Frontend
+- React
+- TypeScript
+- CSS
+- Lucide React
+### Backend
+- Express.js
+### Planned Integrations
+- Gemini API
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Project Goals
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+The goal of this project is to explore how AI-powered recommendations can create a personalized entertainment experience based on a user's emotional state.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## What I'm Learning
+- Full-stack application development
+- REST API design with Express
+- State management in React
+- TypeScript best practices
+- Data persistence and user preferences
+- AI integration workflows
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Planned Improvements
+- Gemini-powered recommendation generation
+- User authentication
+- Custom playlist creation
+- Recommendation history
+-Favorites system
+- Enhanced recommendation accuracy
