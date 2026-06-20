@@ -34,12 +34,16 @@ export default function Projects () {
                     <a href="https://github.com/Shazia-001/Portfolio">
                         <ProjectBox imageSrc={Portfolio} projectName="Personal Portfolio" completed="hundred" descrip="A personal portfolio website showcasing my projects and technical skills as a full-stack developer. Built with a focus on responsive design, performance, and user experience." techstack="React, Typescript, EmailJS" starsIcon={5}/>
                     </a>
+                    
 
+                </div>
+
+                <div className="Questheader dot work">EXPERIENCE</div>
+
+                <div className="containerprojects">
                     <a href="">
                         <ProjectBox imageSrc={csp} projectName="Corporate Service Website" completed="eighty" descrip="A proffesional website for a CSP company in the UAE for a newly formed company. This is currently under process." techstack="React, Typescript, EmailJS" starsIcon={5}/>
                     </a>
-                    
-
                 </div>
 
             </div>
