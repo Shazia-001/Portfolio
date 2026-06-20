@@ -67,6 +67,9 @@ export default function ContactLinks () {
 
                 <div className="header">LET'S <span className="dot work">WORK</span> TOGETHER</div>
                 <div className="line dot work">________________________</div>
+                <div className="contactContent">
+                    <p className="contentin">Looking for opportunaties as a <span className="dot">frontend</span>, <span className="dot">backend</span> or <span className="dot">fullstack</span> devoloper.</p>
+                </div>
 
                 <div className="contactBox">
 

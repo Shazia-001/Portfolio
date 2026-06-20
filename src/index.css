@@ -837,3 +837,11 @@ textarea{
   padding: 0.5rem;
 
 }
+
+.contactContent{
+  width: 70%;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
